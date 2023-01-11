@@ -5,6 +5,7 @@
 - [[4장] 주석](https://delicious-polyester-fd5.notion.site/4-2da84b9df729438c966c998a37d9583e)
 - [[5장] 형식 맞추기](https://delicious-polyester-fd5.notion.site/5-80a93795958c417aae77d1b2f6e3bf6f)
 - [[6장] 객체와 자료구조](https://delicious-polyester-fd5.notion.site/6-c15b8b5235224c8daca9196cbb8d4667)
+- [[7장] 오류 처리](https://delicious-polyester-fd5.notion.site/7-581e5048d2cf4ec6936425581f625f96)
 
 
 ## 공부 유무 체크하기! ✅
@@ -15,3 +16,4 @@
 | 3주차 | O |
 | 4주차 | O |
 | 5주차 | O |
+| 6주차 | O |
