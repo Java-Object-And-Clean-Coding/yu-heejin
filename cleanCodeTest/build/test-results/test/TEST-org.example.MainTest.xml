@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-18T07:44:06" hostname="yuhuijin-ui-MacBookAir.local" time="0.057">
-  <properties/>
-  <testcase name="testLogCreate()" classname="org.example.MainTest" time="0.057"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1월 18, 2023 4:44:06 오후 org.example.MainTest testLogCreate
-INFO: hello
-]]></system-err>
-</testsuite>
