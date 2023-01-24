@@ -7,7 +7,7 @@
 - [[6장] 객체와 자료구조](https://delicious-polyester-fd5.notion.site/6-c15b8b5235224c8daca9196cbb8d4667)
 - [[7장] 오류 처리](https://delicious-polyester-fd5.notion.site/7-581e5048d2cf4ec6936425581f625f96)
 - [[8장] 경계](https://delicious-polyester-fd5.notion.site/8-80599d5c1ff94a789a1735d4c7a697a1)
-
+- [[9장] 단위 테스트](https://delicious-polyester-fd5.notion.site/9-51c1d811fa934321856b27bfaaca166b)
 
 ## 공부 유무 체크하기! ✅
 | Name | Yu Hee Jin |
@@ -19,3 +19,4 @@
 | 5주차 | O |
 | 6주차 | O |
 | 7주차 | O |
+| 8주차 | O |
