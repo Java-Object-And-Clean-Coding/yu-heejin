@@ -11,6 +11,7 @@
 - [[10장] 클래스](https://delicious-polyester-fd5.notion.site/10-9a33b35140de466e973cc963a25ba741)
 - [[11장] 시스템](https://delicious-polyester-fd5.notion.site/11-bde4d880eff549458e520b44f5c34b7b)
 - [[12장] 창발성](https://delicious-polyester-fd5.notion.site/12-549acf5e9f3940b387f161505d17540d)
+- [[13장] 동시성](https://delicious-polyester-fd5.notion.site/13-cf56758386d34b279686eff6b13a1720)
 
 ## 공부 유무 체크하기! ✅
 | Name | Yu Hee Jin |
@@ -26,3 +27,4 @@
 | 9주차 | O |
 | 10주차 | O |
 | 11주차 | O |
+| 12주차 | O |
