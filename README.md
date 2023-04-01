@@ -13,6 +13,7 @@
 - [[12장] 창발성](https://delicious-polyester-fd5.notion.site/12-549acf5e9f3940b387f161505d17540d)
 - [[13장] 동시성](https://delicious-polyester-fd5.notion.site/13-cf56758386d34b279686eff6b13a1720)
 - [[부록 A] 동시성 II](https://delicious-polyester-fd5.notion.site/A-2-5707c480430d4441bdf3d9ed5b962bc9)
+- [[14장] 점진적인 개선](https://delicious-polyester-fd5.notion.site/14-8f04ebd314df4b70a98bf5fcfc0a21c6)
 
 ## 공부 유무 체크하기! ✅
 | Name | Yu Hee Jin |
@@ -30,3 +31,4 @@
 | 11주차 | O |
 | 12주차 | O |
 | 13주차 | O |
+| 14주차 | O |
