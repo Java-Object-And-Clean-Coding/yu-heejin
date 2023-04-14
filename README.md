@@ -1,4 +1,5 @@
 ## 오늘 공부한 것 요약 정리 📚
+### clean code
 - [[1장] 깨끗한 코드](https://delicious-polyester-fd5.notion.site/1-ae8862594970472f80f98134b69f09ba)
 - [[2장] 의미있는 이름](https://delicious-polyester-fd5.notion.site/2-185ccb5abc5845b39a4fc7fa0ecde3c7)
 - [[3장] 함수](https://delicious-polyester-fd5.notion.site/3-262058f6b39849759b10d70106ff92be)
@@ -14,6 +15,10 @@
 - [[13장] 동시성](https://delicious-polyester-fd5.notion.site/13-cf56758386d34b279686eff6b13a1720)
 - [[부록 A] 동시성 II](https://delicious-polyester-fd5.notion.site/A-2-5707c480430d4441bdf3d9ed5b962bc9)
 - [[14장] 점진적인 개선](https://delicious-polyester-fd5.notion.site/14-8f04ebd314df4b70a98bf5fcfc0a21c6)
+
+  
+### Object
+- [[01] 객체, 설계](https://delicious-polyester-fd5.notion.site/01-f1e4381e47b94f5ea7cd01060d219ecb)
 
 ## 공부 유무 체크하기! ✅
 | Name | Yu Hee Jin |
