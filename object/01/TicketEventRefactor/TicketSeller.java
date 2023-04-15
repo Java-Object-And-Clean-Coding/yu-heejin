@@ -7,16 +7,8 @@ public class TicketSeller {
     }
 
     public void sellTo(Audience audience) {
-        if (audience.getBag().hasInvitation()) {   // 이벤트 당첨
-            Ticket ticket = ticketOffice.getTicket();
-            audience.getBag().setTicket(ticket);
-        } else {
-            // 가방안에 초대장이 없다면 티켓을 판매해야 한다.
-            Ticket ticket = ticketOffice.getTicket();
-            audience.getBag().minusAmount(ticket.getFee());
-            ticketOffice.plusAmount(ticket.getFee());
-            audience.getBag().setTicket(ticket);
-        }
+        // 매표소에서 티켓을 꺼내고 관중에게 티켓값을 받아서 매표소에 현금을 더해준다.
+        ticketOffice.plusAmount(audience.buy(ticketOffice.getTicket()));
     }
 
     // TicketSeller에서 getTicketOffice 메서드가 제거됐다는 사실에 주목하라.
