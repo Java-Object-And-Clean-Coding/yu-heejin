@@ -5,6 +5,7 @@ public class Movie {
     private DiscountPolicy discountPolicy;  // 할인 정책
 
     // 해당 속성들의 값은 생성자를 통해 전달받는다.
+    // 오직 하나의 discountPolicy 인스턴스만을 받도록 선언되어 제약을 강제한다.
     public Movie(String title, Duration runningTime, Money fee, DiscountPolicy discountPolicy) {
         this.title = title;
         this.runningTime = runningTime;

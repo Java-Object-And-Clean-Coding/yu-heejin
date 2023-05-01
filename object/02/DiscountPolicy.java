@@ -3,6 +3,7 @@ public abstract class DiscountPolicy {
     private List<DiscountCondition> conditions = new ArrayList<>();
     // 하나의 할인 정책은 여러개의 할인 조건을 포함할 수 있다.
 
+    // 여러 개의 할인 조건을 받는다.
     public DiscountPolicy(DiscountCondition ... conditions) {
         this.conditions = Arrays.asList(conditions);
     }
