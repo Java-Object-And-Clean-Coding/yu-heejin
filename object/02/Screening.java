@@ -1,4 +1,4 @@
-// 상영
+// 사용자들이 예매하는 대상인 상영을 구현한 클래스
 public class Screening {
     private Movie movie;   // 상영할 영화
     private int sequence;  // 순번

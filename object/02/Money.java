@@ -2,8 +2,8 @@
 public class Money {
     public static final Money ZERO = Money.wons(0);
     private final BigDecimal AMOUNT;   
-    // Q. 상수로 선언한 이유는 무엇인가?
-    // Q. BigDecimal 타입?
+    // Q. 상수로 선언한 이유는 무엇인가? 상수도 나중에 값을 변경할 수 있는가?
+    // Q. BigDecimal 타입? - 소수점을 정밀하게 다룰 수 있는 타입
 
     Money(BigDecimal amount) {
         this.AMOUNT = amount;
