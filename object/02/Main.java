@@ -21,3 +21,13 @@ Movie titanic = new Movie("타이타닉",
         new PeriodCondition(DayOfWeek.THURSDAY, LocalTime.of(10, 0), LocalTime.of(13, 59))
     )
 );
+
+// 할인되지 않는 영화 생성
+Movie starWars = new Movie("스타워즈",
+    Duration.ofMinutes(210),
+    Money.wons(10000),
+    new NoneDiscountPolicy()
+)
+
+// 기존 코드를 수정하지 않고 NoneDiscountPolicy 클래스를 추가하는 것만으로 애플리케이션의 기능을 확장
+// 이처럼 추상화를 중심으로 코드의 구조를 설계하면 유연하고 확장 가능한 설계를 만들 수 있다.
