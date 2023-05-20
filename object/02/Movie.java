@@ -20,10 +20,9 @@ public class Movie {
     // discountPolicy에 calculateDiscountAmount 메시지를 전송해 할인 요금을 반환받는다.
     // Movie는 기본 요금인 fee에서 반환된 할인 요금을 차감한다.
     public Money calculateMovieFee(Screening screening) {
-        if (discountPolicy == null) {
-            return fee;
-        }
-
+        // if (discountPolicy == null) {
+        //     return fee;
+        // }
         return fee.minus(discountPolicy.calculateDiscountAmount(screening));
     }
     // 해당 메서드에는 이상한 점이 존재하는데, 어떤 할인 정책을 사용할 것인지 결정하는 코드가 어디에도 존재하지 않는다.
