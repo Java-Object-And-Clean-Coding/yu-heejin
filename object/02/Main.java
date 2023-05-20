@@ -11,6 +11,9 @@ Movie avatar = new Movie("아바타",
 // 영화 아바타에 대한 할인 정책과 할인 조건을 설정한 코드이다.
 // 할인 정책으로 금액 할인 정책이 적용되고, 두 개의 순서 조건과 두 개의 기간 조건을 이용해 할인 여부를 판단한다는 것을 알 수 있다.
 
+avatar.changeDiscountPolicy(new PercentDiscountPolicy(0.1, ...));
+// 금액 할인 정책이 적용된 영화에 비율 할인 정책이 적용되도록 변경하는 것은 새로운 DiscountPolicy
+// 인스턴스를 연결하는 간단한 작업으로 바뀐다.
 
 Movie titanic = new Movie("타이타닉",
     Duration.ofMinutes(180),
@@ -27,7 +30,7 @@ Movie starWars = new Movie("스타워즈",
     Duration.ofMinutes(210),
     Money.wons(10000),
     new NoneDiscountPolicy()
-)
+);
 
 // 기존 코드를 수정하지 않고 NoneDiscountPolicy 클래스를 추가하는 것만으로 애플리케이션의 기능을 확장
 // 이처럼 추상화를 중심으로 코드의 구조를 설계하면 유연하고 확장 가능한 설계를 만들 수 있다.

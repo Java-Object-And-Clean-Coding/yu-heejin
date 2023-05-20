@@ -38,4 +38,8 @@ public class Movie {
     // 할인 정책이 없는 경우에는 할인 금액이 0원이라는 사실을 결정하는 책임이 Movie에 있기 때문이다.
     // 따라서 책임의 위치를 결정하기 위해 조건문을 사용하는 것은 협력의 설계 측면에서 대부분의 경우 좋지 않은 선택이다.
     // 항상 예외 케이스를 최소화하고 일관성을 유지할 수 있는 방법을 선택하라.
+
+    public void changeDiscountPolicy(DiscountPolicy discountPolicy) {
+        this.discountPolicy = discountPolicy;
+    }
 }
