@@ -20,6 +20,7 @@
 ### Object
 - [[01] 객체, 설계](https://delicious-polyester-fd5.notion.site/01-f1e4381e47b94f5ea7cd01060d219ecb)
 - [[02] 객체지향 프로그래밍](https://delicious-polyester-fd5.notion.site/02-a69ede1b8dcf49e0b15969741d33c2ad)
+- [[03] 역할, 책임, 협력](https://www.notion.so/03-d98454bdad5b46a2b32a69a8be238989?pvs=4)
 
 
 ## 공부 유무 체크하기! ✅
@@ -33,7 +34,7 @@
 | 6주차 | O | 18주차 | X |
 | 7주차 | O | 19주차 | X |
 | 8주차 | O | 20주차 | O |
-| 9주차 | O | - | - |
+| 9주차 | O | 21주차 | O |
 | 10주차 | O | - | - |
 | 11주차 | O | - | - |
 | 12주차 | O | - | - |
