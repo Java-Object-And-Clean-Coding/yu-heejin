@@ -21,6 +21,7 @@
 - [[01] 객체, 설계](https://delicious-polyester-fd5.notion.site/01-f1e4381e47b94f5ea7cd01060d219ecb)
 - [[02] 객체지향 프로그래밍](https://delicious-polyester-fd5.notion.site/02-a69ede1b8dcf49e0b15969741d33c2ad)
 - [[03] 역할, 책임, 협력](https://www.notion.so/03-d98454bdad5b46a2b32a69a8be238989?pvs=4)
+- [[04] 설계 품질과 트레이드 오프](https://www.notion.so/04-f146f145de2844e6b63dce96a080058f?pvs=4)
 
 
 ## 공부 유무 체크하기! ✅
