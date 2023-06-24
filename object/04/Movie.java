@@ -5,7 +5,7 @@ public class Movie {
     private List<DiscountCondition> discountConditions;
     private MovieType movieType;
     private Money discountAmount;
-    private Money discountPercent;
+    private double discountPercent;
 
     public MovieType getMovieType() {
         return movieType;
@@ -22,6 +22,30 @@ public class Movie {
     public void setFee(Money fee) {
         this.fee = fee;
     }
+
+    public List<DiscountCondition> getDiscountConditions() {
+        return Collections.unmodifiableList(discountConditions);
+    }
+
+    public void setDiscountConditions(List<DiscountCondition> discountConditions) {
+        this.discountConditions = discountConditions;
+    }
+
+    public Money getDiscountAmount() {
+        return discountAmount;
+    }
+
+    public void setDiscountAmount(Money discountAmount) {
+        this.discountAmount = discountAmount;
+    }
+
+    public double getDiscountPercent() {
+        return discountPercent;
+    }
+
+    public void setDiscountPercent(double discountPercent) {
+        this.discountPercent = discountPercent;
+    } 
 }
 
 // 데이터 중심의 Movie 클래스 역시 책임 중심의 Movie클래스와 마찬가지로
@@ -33,3 +57,7 @@ public class Movie {
 // 할인 정책은 영화별로 오직 하나만 지정할 수 있기 떄문에 한 시점에 discountAmount와 discountPercent 중
 // 하나의 값만 사용될 수 있다.
 // 영화에 사용된 할인 정책의 종류를 결정하는 것은 movieType
+
+// 객체지향의 가장 중요한 원칙은 캡슐화이므로, 내부 데이터가 객체를 빠져나가 외부의 다른 객체들을
+// 오염시키는 것을 막아야 한다.
+// 이를 달성할 수 있는 가장 간단한 방법은 내부의 데이터를 반환하는 접근자와 데이터를 변경하는 수정자를 추가한다.
